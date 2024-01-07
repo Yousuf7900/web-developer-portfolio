@@ -1,0 +1,10 @@
+
+/* Common shared style for all */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav bar style */
+nav {
+    display: flex;
+}
