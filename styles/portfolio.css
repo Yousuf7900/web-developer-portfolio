@@ -3,13 +3,24 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 /* Primary color-> orange */
-.text-primary-color{
-    color: #FD6E0A;
+.text-primary-color {
+  color: #fd6e0a;
+}
+/* button clr */
+.button-style {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px 18px 35px;
 }
 
 /* Nav bar style */
 nav {
   display: flex;
+  justify-content: space-between;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -17,10 +28,14 @@ nav {
   font-weight: 800;
 }
 /* UL styled */
-nav > ul{
-    display: flex;
+nav > ul {
+  display: flex;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
 }
