@@ -2,6 +2,10 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+/* Primary color-> orange */
+.text-primary-color{
+    color: #FD6E0A;
+}
 
 /* Nav bar style */
 nav {
@@ -11,4 +15,12 @@ nav {
   color: var(--Dark-01, #181818);
   font-size: 45px;
   font-weight: 800;
+}
+/* UL styled */
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
 }
