@@ -1,10 +1,14 @@
-
 /* Common shared style for all */
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Nav bar style */
 nav {
-    display: flex;
+  display: flex;
+}
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
 }
